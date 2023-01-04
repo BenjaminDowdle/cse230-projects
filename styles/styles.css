@@ -1,0 +1,18 @@
+#profile-pic {
+    width: 20%;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 50px;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 35px;
+}
+
+.assignment {
+    font-size: 20px;
+}
