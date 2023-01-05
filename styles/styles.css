@@ -28,7 +28,7 @@ footer p {
     display: inline-block;
 }
 
-section {
+div {
     background-color: rgb(214, 206, 200);
     width: 40%;
     margin: auto;
@@ -36,15 +36,15 @@ section {
     border-radius: 15px;
 }
 
-section a {
+div a {
     color: rgb(13, 13, 110);
     text-decoration: none;
     font-size: 18px;
     display: block;
-    padding: 10;
+    padding: 10px;
 
 }
 
-section a:hover {
+div a:hover {
     color: rgb(69, 147, 214);
 }
