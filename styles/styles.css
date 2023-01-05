@@ -7,12 +7,44 @@
 
 body {
     text-align: center;
+    background-color: rgb(177, 213, 245);
+    font-family: 'Source Code Pro', monospace;
 }
 
 h1 {
     padding-bottom: 35px;
 }
 
-.assignment {
-    font-size: 20px;
+footer {
+    width: 65%;
+    background-color: rgb(13, 13, 110);
+    margin: 60px auto;
+    color: rgb(214, 206, 200);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+section {
+    background-color: rgb(214, 206, 200);
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+section a {
+    color: rgb(13, 13, 110);
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10;
+
+}
+
+section a:hover {
+    color: rgb(69, 147, 214);
 }
