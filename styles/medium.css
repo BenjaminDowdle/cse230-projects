@@ -1,0 +1,23 @@
+@media screen and (min-width: 32.5em) {
+
+    #profile-pic{
+        width: 20em;
+    }
+
+    footer{
+        width: 70%;
+    }
+
+    div{
+        width: 45%;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+
+    footer h2{
+        font-size: 20px;
+    }
+    
+}
