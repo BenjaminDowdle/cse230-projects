@@ -1,0 +1,18 @@
+@media screen and (min-width: 101em) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #hicks-law {
+        grid-column: 1;
+    }
+
+    #contrast {
+        grid-column: 2;
+    }
+
+    #white-space {
+        grid-column: 3;
+    }
+}

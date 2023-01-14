@@ -1,0 +1,70 @@
+body {
+    font-family: 'Mulish', sans-serif;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(3, 3, 100);
+    color: white;
+}
+
+div {
+    width: 90%;
+    text-align: center;
+    margin: 20px 20px;
+    outline: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(233, 233, 233);
+}
+
+div p {
+    padding: 15px;
+}
+
+div img {
+    width: 100%;
+    padding-top: 18px;
+}
+
+div h1 {
+    background-color: rgb(3, 3, 100);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    margin: auto
+}
+
+div a {
+    text-decoration: none;
+    color: rgb(52, 113, 194);
+    font-size: 18px;
+}
+
+div a:hover {
+    color: rgb(7, 55, 117);
+}
+
+main {
+    display: grid;
+}
+
+footer {
+    width: 90%;
+    background-color: rgb(3, 3, 100);
+    margin: 40px auto;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+    font-size: 10px;
+}
+
+footer h2 {
+    font-size: 15px;
+}
