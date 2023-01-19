@@ -38,12 +38,12 @@ div h1 {
 
 div a {
     text-decoration: none;
-    color: rgb(52, 113, 194);
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 
 div a:hover {
-    color: rgb(7, 55, 117);
+    color: rgb(8, 89, 165);
 }
 
 main {
