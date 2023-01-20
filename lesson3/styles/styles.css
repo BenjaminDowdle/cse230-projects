@@ -1,35 +1,38 @@
-body{
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    font-family: 'Source Sans Pro', sans-serif;
+body {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   font-weight: 600;
 }
 
-h3{
-  text-decoration: underline solid 2px #ede5cb;
+h3 {
+  text-decoration: underline solid 2px white;
 }
 
-header{
+header {
   background-color: #8D172D;
   padding-top: 10px;
   color: #ede5cb;
 }
 
-header img{
+header img {
   width: 150px;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: center;
   align-content: center;
   background-color: #ede5cb;
 }
 
-nav a{
+nav a {
   padding: 18px;
   text-decoration: none;
   margin: auto;
@@ -37,80 +40,84 @@ nav a{
   color: black;
 }
 
-nav a:hover{
+nav a:hover {
   background-color: darkgray;
 }
 
-.home{
+.home {
   grid-column: 2;
 }
 
-.design{
+.design {
   grid-column: 3;
 }
 
-.target-audience{
+.target-audience {
   grid-column: 4;
 }
 
-main{
+main {
   margin: auto 15%;
 }
 
-#logo{
-    width: 500px;
+#logo {
+  width: 500px;
 }
 
 
 .colors {
-    width: 100%;
-    min-width: 350px;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-  }
-  .colors th {
-    background-color: #999;
-  }
-  .colors td {
-    width: 25%;
-    height: 3em;
-  }
-.colored{
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
+.colored {
   background-color: #273E47;
   color: white;
 }
 
 .primary {
   background-color: #8d172d;
+  color: white;
 }
 
-.secondary{
+.secondary {
   background-color: #ede5cb;
 }
 
-.accent1{
+.accent1 {
   background-color: #273E47;
   color: white;
 }
 
-.accent2{
-  background-color: #BD632F;
+.accent2 {
+  background-color: #a54a15;
   color: white;
 }
 
-main img{
+main img {
   width: 40%;
   border-radius: 15px;
   margin: auto;
 }
 
 .personas {
-  background-color: #BD632F;
+  background-color: #a54a15;
   border: #273E47 solid 2px;
   border-radius: 15px;
   margin: 15px auto;
-  color: #ede5cb;
+  color: white;
   width: 75%;
 }
 
@@ -118,4 +125,3 @@ ol li {
   padding: 10px 50px;
   text-align: left;
 }
-
