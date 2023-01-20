@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4{
+  font-weight: 600;
+}
+
+h3{
+  text-decoration: underline solid 2px #ede5cb;
+}
+
+header{
+  background-color: #8D172D;
+  padding-top: 10px;
+  color: #ede5cb;
+}
+
+header img{
+  width: 150px;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #ede5cb;
+}
+
+nav a{
+  padding: 18px;
+  text-decoration: none;
+  margin: auto;
+  font-size: 20px;
+  color: black;
+}
+
+nav a:hover{
+  background-color: darkgray;
+}
+
+.home{
+  grid-column: 2;
+}
+
+.design{
+  grid-column: 3;
+}
+
+.target-audience{
+  grid-column: 4;
+}
+
+main{
+  margin: auto 15%;
+}
+
+#logo{
+    width: 500px;
+}
+
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td {
+    width: 25%;
+    height: 3em;
+  }
+.colored{
+  background-color: #273E47;
+  color: white;
+}
+
+.primary {
+  background-color: #8d172d;
+}
+
+.secondary{
+  background-color: #ede5cb;
+}
+
+.accent1{
+  background-color: #273E47;
+  color: white;
+}
+
+.accent2{
+  background-color: #BD632F;
+  color: white;
+}
+
+main img{
+  width: 40%;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.personas {
+  background-color: #BD632F;
+  border: #273E47 solid 2px;
+  border-radius: 15px;
+  margin: 15px auto;
+  color: #ede5cb;
+  width: 75%;
+}
+
+ol li {
+  padding: 10px 50px;
+  text-align: left;
+}
+
