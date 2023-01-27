@@ -1,0 +1,133 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #8D172D;
+    color: #ede5cb;
+    margin: 0px;
+}
+
+.logo {
+    width: 8em;
+}
+
+.headline {
+    text-align: center;
+
+
+}
+
+.date {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.socials {
+    width: 1.5em;
+    padding: .25em;
+}
+
+.main-element {
+    width: 95%;
+    height: 15em;
+    background-color: rgb(207, 207, 207);
+    margin: auto;
+}
+
+
+
+footer {
+    text-align: center;
+    color: #ede5cb;
+    background-color: #8D172D;
+    margin-top: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ede5cb;
+}
+
+footer a:hover {
+    color: #273E47;
+}
+
+footer h3 {
+    border-top: #273E47 1px dotted;
+    padding-top: 5px;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #273E47;
+}
+
+.navbar li:first-child {
+    display: block;
+}
+
+.navbar li {
+    display: none;
+}
+
+.navbar a {
+    display: block;
+    text-align: left;
+    padding: .5em;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    color: #ede5cb;
+}
+
+#menu::before {
+    content: "≡";
+    font-size: 1.5em;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: #273E47;
+    background-color: #ede5cb;
+}
+
+
+.responsive li {
+    display: block;
+}
+
+.responsive #menu::before {
+    content: "X";
+}
+
+@media only screen and (min-width: 40em) {
+    .navbar {
+        display: flex;
+    }
+
+    .navbar li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
+    }
+
+    .navbar a {
+        text-align: center;
+    }
+
+    .navbar li:first-child {
+        display: none;
+    }
+}
