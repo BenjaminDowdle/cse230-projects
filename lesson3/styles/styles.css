@@ -27,6 +27,7 @@ header img {
 
 nav {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   background-color: #ede5cb;
@@ -61,7 +62,7 @@ main {
 }
 
 #logo {
-  width: 500px;
+  width: 60%;
 }
 
 
@@ -124,4 +125,11 @@ main img {
 ol li {
   padding: 10px 50px;
   text-align: left;
+}
+
+@media screen and (min-width: 60em) {
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
 }
