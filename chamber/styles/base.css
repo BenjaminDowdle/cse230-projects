@@ -1,6 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+    position: relative;
 }
 
 header {
@@ -16,7 +17,7 @@ main div {
 }
 
 .logo {
-    width: 8em;
+    width: 12em;
 }
 
 .headline {
@@ -35,7 +36,89 @@ main div {
 }
 
 .main-element {
-    background-color: rgb(207, 207, 207);
+    background-color: #273E47;
+    color: #ede5cb;
+    text-align: center;
+    box-shadow: 8px 8px 15px #273E47;
+}
+
+.main-element p {
+    font-size: 20px;
+}
+
+.main-element h2 {
+    font-size: 30px;
+}
+
+.main-element h3 {
+    font-size: 24px;
+    text-decoration: solid 2px #ede5cb;
+}
+
+.main-element img {
+    position: relative;
+    width: 5em;
+    margin: auto;
+}
+
+#hero {
+    background-image: url('/chamber/images/neighborhood.jpg');
+    background-size: cover;
+    color: #ede5cb;
+}
+
+#hero button {
+    width: 10rem;
+    background-color: #a54a15;
+    color: #ede5cb;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#hero button:hover {
+    background-color: #86380a;
+}
+
+#event a {
+    color: #ede5cb;
+}
+
+#event a:hover {
+    color: #bbaf88;
+}
+
+#weather {
+    position: relative;
+
+}
+
+.wind {
+    position: relative;
+    top: 75px;
+}
+
+#weather-icon {
+    position: relative;
+    margin: auto;
+    float: left;
+    left: 15%;
+}
+
+#temp {
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    bottom: 50px;
+    float: right;
+    right: 15%;
+}
+
+#spotlight1 {
+    position: relative;
+}
+
+#spotlight2 {
+    position: relative;
 }
 
 #spotlight3 {
@@ -43,7 +126,25 @@ main div {
     display: none;
 }
 
+#join {
+    visibility: hidden;
+    display: none;
+}
 
+#join button {
+    position: relative;
+    width: 90%;
+    background-color: #a54a15;
+    color: #ede5cb;
+    border-radius: 10px;
+    padding: 10px;
+    top: 50px;
+    box-shadow: 8px 8px 15px #16252b;
+}
+
+#join button:hover {
+    background-color: #86380a;
+}
 
 footer {
     text-align: center;
@@ -66,6 +167,8 @@ footer h3 {
     padding-top: 5px;
 }
 
+
+/*---------Interactive nav bar stuff---------*/
 nav {
     margin: 0 auto;
     max-width: 760px;

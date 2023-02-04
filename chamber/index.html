@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,8 +24,8 @@
     <header>
         <div class="headline">
             <img src="images/UT-Commerce-Logo.png" alt="UT-Commerce-Logo" class="logo">
-            <h2 >Welcome to UT Commerce</h2>
             <h5><i class="date"></i></h5>
+            <h5 id="date-message"></h5>
         </div>
         <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" class="socials"></a>
         <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.png" alt="LinkedIn" class="socials"></a>
@@ -40,28 +41,51 @@
     </header>
     <main>
         <div class="main-element" id="hero">
-            <p>Hero</p>
+            <h2>Welcome to UT Chamber!</h2>
+            <form action="join.html">
+                <button>Join the Chamber</button>
+            </form>
         </div>
         <div class="main-element" id="event">
-            <p>Event</p>
+            <h2>Grand Opening</h2>
+            <h3>Sugabons Diner</h3>
+            <p>Join us for the grand opening of Sugabons Diner, Friday at 10 AM. <a href="discover.html">more info...</a></p>
+            
         </div>
         <div class="main-element" id="weather">
-            <p>Weather</p>
+            <h2>Weather</h2>
+            <img src="images/partly_cloudy.png" alt="partly_cloudy" id="weather-icon">
+            <p id="temp">42°</p>
+            <p class="wind">Wind Speed: 2.5 mph</p>
+            <p class="wind">Wind Chill: N/A</p>
         </div>
         <div class="main-element" id="news-release">
-            <p>News Release</p>
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aspernatur tempore reprehenderit nihil, laboriosam reiciendis asperiores nisi vitae neque assumenda commodi ut sapiente perferendis, ipsa quibusdam expedita. Officia, doloribus voluptate.</p>
         </div>
         <div class="main-element" id="join">
-            <p>Join</p>
+            <form action="join.html">
+                <button>Join Us!</button>
+            </form>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
         <div class="main-element" id="spotlight1">
-            <p>Spotlight 1</p>
+            <h2>Dave's Towing</h2>
+            <img src="images/tow-truck.png" alt="tow-truck icon">
+            <p>"We can tow it!"</p>
+            <p>(555) 555-5555</p>
         </div>
         <div class="main-element" id="spotlight2">
-            <p>Spotlight 2</p>
+            <h2>Margaret's Cookies</h2>
+            <img src="images/cookies.png" alt="cookies">
+            <p>"Best cookies in town!"</p>
+            <p>(555) 555-5555</p>
         </div>
         <div class="main-element" id="spotlight3">
-            <p>Spotlight 3</p>
+            <h2>Sandra's Soap</h2>
+            <img src="images/soap.png" alt="soap">
+            <p>"Soap for all shapes and sizes."</p>
+            <p>(555) 555-5555</p>
         </div>
     </main>
     <footer>

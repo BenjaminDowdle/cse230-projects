@@ -29,11 +29,29 @@
         width: 95%;
     }
 
+    #spotlight1 img {
+        width: 3em;
+    }
+
+    #spotlight1 p {
+        position: relative;
+        bottom: 20px
+    }
+
     #spotlight2 {
         display: grid;
         grid-row: 2;
         grid-column: 4;
         width: 95%;
+    }
+
+    #spotlight2 img {
+        width: 3em;
+    }
+
+    #spotlight2 p {
+        position: relative;
+        bottom: 20px
     }
 
     #spotlight3 {
@@ -43,8 +61,16 @@
         grid-column: 4;
     }
 
+    #spotlight3 img {
+        width: 3em;
+    }
+
+    #spotlight3 p {
+        position: relative;
+        bottom: 20px
+    }
+
     #weather {
-        display: grid;
         grid-row: 2;
         grid-column: 1;
         margin: .5em auto;
@@ -52,7 +78,6 @@
     }
 
     #news-release {
-        display: grid;
         grid-row: 3;
         grid-column: 2/4;
         margin: .5em auto;
@@ -63,7 +88,11 @@
         display: grid;
         grid-row: 3;
         grid-column: 1;
+        visibility: visible;
     }
 
-
+    #hero button {
+        width: 14em;
+        margin: auto;
+    }
 }

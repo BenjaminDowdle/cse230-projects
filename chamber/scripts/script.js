@@ -15,3 +15,30 @@ document.querySelector(".date").innerHTML = fullDate
 
 
 document.querySelector(".last-modified").innerText = new Date(document.lastModified)
+
+
+// ----------Generate date message----------
+const newDay = new Date();
+const day = newDay.getDay();
+
+let dayOutput = document.querySelector("#date-message");
+
+let message;
+switch (day) {
+    case 0:
+        message = ""
+    case 1:
+        message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+    case 2:
+        message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+    case 3:
+        message = ""
+    case 4:
+        message = ""
+    case 5:
+        message = ""
+    case 6:
+        message = ""
+}
+
+dayOutput.innerHTML = message;
