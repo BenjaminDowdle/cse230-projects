@@ -63,7 +63,7 @@ main div {
 }
 
 #hero {
-    background-image: url('../images/neighborhood.jpg');
+    background-image: url("../images/neighborhood.jpg");
     background-size: cover;
     color: #ede5cb;
 }
