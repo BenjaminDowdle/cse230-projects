@@ -23,22 +23,14 @@ const day = newDay.getDay();
 
 let dayOutput = document.querySelector("#date-message");
 
-let message;
+let message = "";
 switch (day) {
-    case 0:
-        message = ""
     case 1:
-        message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+        message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+        break;
     case 2:
-        message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
-    case 3:
-        message = ""
-    case 4:
-        message = ""
-    case 5:
-        message = ""
-    case 6:
-        message = ""
+        message = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+        break;
 }
 
 dayOutput.innerHTML = message;
