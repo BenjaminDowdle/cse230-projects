@@ -63,9 +63,24 @@ main div {
 }
 
 #hero {
-    background-image: url("../images/neighborhood.jpg");
-    background-size: cover;
+    /* background-image: url("../images/neighborhood.webp");
+    background-size: cover; */
+    margin-top: 10px;
     color: #ede5cb;
+    position: relative;
+    display: flex;
+}
+
+#hero img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-text {
+    z-index: 1;
+    color: #c0edf9;
 }
 
 #hero button {

@@ -25,12 +25,12 @@
 <body>
     <header>
         <div class="headline">
-            <img src="images/UT-Commerce-Logo.png" alt="UT-Commerce-Logo" class="logo">
+            <img src="images/UT-Commerce-Logo.webp" alt="UT-Commerce-Logo" class="logo">
             <h5><i class="date"></i></h5>
             <p id="date-message"></p>
         </div>
-        <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook" class="socials"></a>
-        <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.png" alt="LinkedIn" class="socials"></a>
+        <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook" class="socials"></a>
+        <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.webp" alt="LinkedIn" class="socials"></a>
         <nav>
             <ul class="navbar">
                 <li><a id="menu" href="#"> Menu</a></li>
@@ -43,10 +43,15 @@
     </header>
     <main>
         <div class="main-element" id="hero">
-            <h2>Welcome to UT Chamber!</h2>
-            <form action="join.html">
+            
+            <h2 class="image-text">Welcome to UT Commerce!</h2>
+            <form action="join.html" class="image-text">
                 <button>Join the Chamber</button>
             </form>
+            <img src="images/sample-img-1000.jpg" alt="hero image" sizes="50vw"
+            srcset="images/sample-img-300.jpg 300w,
+            images/sample-img-700.jpg 700w,
+            images/sample-img-1000.jpg 1000w">
         </div>
         <div class="main-element" id="event">
             <h2>Grand Opening</h2>
@@ -56,10 +61,10 @@
         </div>
         <div class="main-element" id="weather">
             <h2>Weather</h2>
-            <img src="images/partly_cloudy.png" alt="partly_cloudy" id="weather-icon">
-            <p id="temp">42°</p>
-            <p class="wind">Wind Speed: 2.5 mph</p>
-            <p class="wind">Wind Chill: N/A</p>
+            <img src="images/partly_cloudy.webp" alt="partly_cloudy" id="weather-icon">
+            <p id="temp"></p>
+            <p class="wind" id="wind-speed"></p>
+            <p class="wind" id="wind-chill"></p>
         </div>
         <div class="main-element" id="news-release">
             <h2>News Release</h2>
@@ -73,25 +78,25 @@
         </div>
         <div class="main-element" id="spotlight1">
             <h2>Dave's Towing</h2>
-            <img src="images/tow-truck.png" alt="tow-truck icon">
+            <img src="images/tow-truck.webp" alt="tow-truck icon">
             <p>"We can tow it!"</p>
             <p>(555) 555-5555</p>
         </div>
         <div class="main-element" id="spotlight2">
             <h2>Margaret's Cookies</h2>
-            <img src="images/cookies.png" alt="cookies">
+            <img src="images/cookies.webp" alt="cookies">
             <p>"Best cookies in town!"</p>
             <p>(555) 555-5555</p>
         </div>
         <div class="main-element" id="spotlight3">
             <h2>Sandra's Soap</h2>
-            <img src="images/soap.png" alt="soap">
+            <img src="images/soap.webp" alt="soap">
             <p>"Soap for all shapes and sizes."</p>
             <p>(555) 555-5555</p>
         </div>
     </main>
     <footer>
-        <img src="images/UT-Commerce-Logo.png" alt="UT-Commerce-Logo" class="logo">
+        <img src="images/UT-Commerce-Logo.webp" alt="UT-Commerce-Logo" class="logo">
         <p>info@utcommerce.org</p>
         <p>(555) 555-5555</p>
         <a href="https://goo.gl/maps/fVUAVBEQF2tGR2257">Location Map</a>
@@ -102,6 +107,7 @@
         <p class="last-modified"></p>
 
     </footer>
+    <script src="scripts/windchill.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>
