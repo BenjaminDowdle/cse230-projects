@@ -10,7 +10,7 @@ temperature.innerHTML = degreesF + "° F";
 windSpeed.innerHTML = "Wind Speed: " + speedMPH;
 
 if (degreesF <= 50 && speedMPH > 3.0) {
-    let chillTemp = 35.74 + (0.6215 * degreesF) - (35.75 * speedMPH ^ 0.16) + (0.4275 * degreesF * speedMPH ^ 0.16);
+    let chillTemp = 35.74 + 0.6215 * degreesF - 35.75 * speedMPH ** 0.16 + 0.4275 * degreesF * speedMPH ** 0.16;
     chillTemp = chillTemp.toFixed(1);
 
     windChill.innerHTML = "Wind Chill: " + chillTemp + "° F";
