@@ -36,3 +36,18 @@ switch (day) {
 }
 
 dayOutput.innerHTML = message;
+
+// ------Find Days since last visit------
+// Get the current date
+const newCurrentDate = new Date();
+
+// Get the last visit date from LocalStorage or set to null if not found
+const lastVisitDate = localStorage.getItem('lastVisitDate') || null;
+
+if (lastVisitDate) {
+    // Calculate the number of days since the last visit
+    const timeDiff = Math.abs(newCurrentDate.getTime() - new Date(lastVisitDate).getTime());
+    const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+    document.querySelector("#viewed").innerHTML = diffDays;
+}
