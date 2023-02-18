@@ -50,4 +50,8 @@ if (lastVisitDate) {
     const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
 
     document.querySelector("#viewed").innerHTML = diffDays;
+    console.log(newCurrentDate);
+    console.log(lastVisitDate);
+    console.log(timeDiff);
+    console.log(diffDays);
 }
