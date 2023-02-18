@@ -54,4 +54,6 @@ if (lastVisitDate) {
     console.log(lastVisitDate);
     console.log(timeDiff);
     console.log(diffDays);
+} else {
+    document.querySelector("#viewed").innerHTML = 0;
 }
