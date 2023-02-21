@@ -6,6 +6,7 @@ table {
     position: relative;
     margin: auto;
     border-spacing: 0;
+    caption-side: bottom;
 }
 
 thead {
