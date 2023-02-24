@@ -99,6 +99,20 @@ main div {
     padding: .25em;
 }
 
+.thankyou-main {
+    text-align: center;
+    margin: 200px;
+}
+
+.thankyou-main a {
+    text-decoration: none;
+    color: black;
+}
+
+.thankyou-main a:hover {
+    color: #8D172D;
+}
+
 .main-element {
     background-color: #273E47;
     color: #ede5cb;
@@ -293,6 +307,79 @@ nav {
 
 .responsive #menu::before {
     content: "X";
+}
+
+/* ---------------FORM---------------- */
+/* Center the form horizontally */
+.grid-form {
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* Style the form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style the form inputs */
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #273E47;
+    color: #ede5cb;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style the form field with the required attribute */
+input[required],
+select[required],
+textarea[required] {
+    border-color: #ff0000;
+}
+
+/* Style the membership benefits list */
+#membership-benefits {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+#membership-benefits h3 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#membership-benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+#membership-benefits li {
+    margin-bottom: 5px;
+}
+
+.benefits {
+    margin: auto;
+}
+
+.benefits td {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 40em) {

@@ -13,6 +13,10 @@
         text-align: left;
     }
 
+    .grid-form {
+        width: 50%;
+    }
+
 
     #hero {
         display: grid;
