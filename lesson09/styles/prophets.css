@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: 'Lora', serif;
+    background-color: rgb(29, 52, 100);
+    color: white;
+}
+
+
+
+.cards img {
+    border-radius: 15px;
+
+}
+
+.cards section {
+    padding: 20px;
+}
+
+.cards img:hover {
+    box-shadow: 10px 5px 10px rgb(9, 27, 59);
+}
+
+footer {
+    margin-top: 50px;
+}
