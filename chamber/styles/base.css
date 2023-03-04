@@ -255,6 +255,63 @@ footer h3 {
     padding-top: 5px;
 }
 
+.directory_main {
+    margin: auto;
+    text-align: center;
+}
+
+.grid_cards section {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #d7d7da;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    min-width: 300px;
+    max-width: 300px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.directory_menu {
+    top: 20px;
+    display: inline-block;
+    position: relative;
+    height: 50px;
+}
+
+
+
+.list_cards section img {
+    display: none;
+    visibility: hidden;
+}
+
+.list_cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_cards section {
+    text-align: left;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list_cards section>* {
+    margin: 0 1rem;
+}
+
+.list_cards section h3 {
+    font-size: 1rem;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list_cards section:nth-child(even) {
+    background-color: #d7d7da;
+}
+
 
 /*---------Interactive nav bar stuff---------*/
 nav {
