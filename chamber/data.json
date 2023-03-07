@@ -5,63 +5,81 @@
             "address": "1223 S. 2300 W. West Valley City, UT 84119",
             "phonenumber": "(555) 555-5555",
             "email": "davetows@msn.com",
-            "imageurl": "images/DavesTowing_Logo.png"
+            "imageurl": "images/DavesTowing_Logo.png",
+            "website": "davestowing.com",
+            "membershiplevel": "Bronze"
         },
         {
             "name": "Margaret's Cookies",
             "address": "3232 W. 5400 S. Salt Lake City, UT 84118",
             "phonenumber": "(555) 555-5555",
             "email": "cookiecookie@gmail.com",
-            "imageurl": "images/MargaretsCookies_Logo.png"
+            "imageurl": "images/MargaretsCookies_Logo.png",
+            "website": "margaretscookis.com",
+            "membershiplevel": "Bronze"
         },
         {
             "name": "Pacha Soap Co.",
             "address": "3654 S. 900 E. Milcreek, UT 84106",
             "phonenumber": "(555) 555-5555",
             "email": "soapysandra@aol.com",
-            "imageurl": "images/PachaSoapCo_Logo.png"
+            "imageurl": "images/PachaSoapCo_Logo.png",
+            "website": "pachasoaps.com",
+            "membershiplevel": "Silver"
         },
         {
             "name": "Crisp Cutz",
             "address": "2314 W. 7300 S. West Jordan, UT 84084",
             "phonenumber": "(555) 555-5555",
             "email": "crispycutz@gmail.com",
-            "imageurl": "images/CrispCutz_Logo.png"
+            "imageurl": "images/CrispCutz_Logo.png",
+            "website": "crispcutz.com",
+            "membershiplevel": "Silver"
         },
         {
             "name": "Big Belly Burger",
             "address": "1357 E. 5400 S. Salt Lake City, UT 84117",
             "phonenumber": "(555) 555-5555",
             "email": "bigbelly@hotmail.com",
-            "imageurl": "images/BigBellyBurger_Logo.png"
+            "imageurl": "images/BigBellyBurger_Logo.png",
+            "website": "bigbellyburger.com",
+            "membershiplevel": "Gold"
         },
         {
             "name": "Primatech Paper",
             "address": "1824 S. West Temple Salt Lake City, UT 84115",
             "phonenumber": "(555) 555-5555",
             "email": "wegotthepaper@gmail.com",
-            "imageurl": "images/PrimatechPaper_Logo.png"
+            "imageurl": "images/PrimatechPaper_Logo.png",
+            "website": "primatechpaper",
+            "membershiplevel": "Gold"
         },
         {
             "name": "Peterson Digital",
             "address": "234 E. 300 S. Salt Lake City, UT 84111",
             "phonenumber": "(555) 555-5555",
             "email": "petersondigital@gmail.com",
-            "imageurl": "images/PetersonDigital_Logo.png"
+            "imageurl": "images/PetersonDigital_Logo.png",
+            "website": "petersondigital.com",
+            "membershiplevel": "Gold"
         },
         {
             "name": "Planet Express",
             "address": "2954 S. 700 E. South Salt Lake, UT 84106",
             "phonenumber": "(555) 555-5555",
             "email": "wemoveit@planetexpress.com",
-            "imageurl": "images/PlanetExpress_Logo.png"
+            "imageurl": "images/PlanetExpress_Logo.png",
+            "website": "planetexpress.com",
+            "membershiplevel": "Bronze"
         },
         {
             "name": "Daystrom Data Concepts",
             "address": "1329 E. 6300 S. Murray, UT 84123",
             "phonenumber": "(555) 555-5555",
             "email": "daystrom@dataconcepts.com",
-            "imageurl": "images/DaystromDataConcepts_Logo.png"
+            "imageurl": "images/DaystromDataConcepts_Logo.png",
+            "website": "daystromdata.com",
+            "membershiplevel": "Gold"
         }
     ]
 }

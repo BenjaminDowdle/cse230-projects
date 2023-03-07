@@ -19,13 +19,18 @@ const displayData = (businesses) => {
         let address = document.createElement('p');
         let phoneNumber = document.createElement('p');
         let email = document.createElement('a');
+        let website = document.createElement('a');
+        let membership = document.createElement('p');
 
         logo.setAttribute('src', business.imageurl);
         logo.setAttribute('alt', `Logo for ${business.name}`)
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '200')
 
-        console.debug(business.imageurl);
+        website.setAttribute('href', business.website);
+        website.textContent = (`${business.website}`);
+
+        membership.textContent = (`${business.membershiplevel} Member`)
 
         name.textContent = (`${business.name}`);
 
@@ -39,7 +44,9 @@ const displayData = (businesses) => {
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phoneNumber);
+        card.appendChild(website);
         card.appendChild(email);
+        card.appendChild(membership);
 
         cards.appendChild(card);
     });
