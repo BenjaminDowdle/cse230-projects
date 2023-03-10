@@ -39,9 +39,8 @@ function calculateWindChill(t, v) {
 
     if (t <= 50 && v > 3) {
         const windChill = (0.0817 * (3.71 * v ** 0.5 + 5.81 - 0.25 * v) * (t - 91.4) + 91.4).toFixed(0);
+        return windChill;
     } else {
         return "N/A";
     }
-
-    return windChill;
 }
