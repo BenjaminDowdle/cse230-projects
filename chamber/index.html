@@ -56,10 +56,11 @@
         </div>
         <div class="main-element" id="weather">
             <h2>Weather</h2>
-            <img src="images/partly_cloudy.webp" alt="partly_cloudy" id="weather-icon">
+            <img src="" alt="" id="weather-icon">
             <p id="temp"></p>
-            <p class="wind" id="wind-speed"></p>
-            <p class="wind" id="wind-chill"></p>
+            <figcaption id="weather-caption"></figcaption>
+            <p class="wind" id="speed">Wind Speed: <span id="wind-speed"></span> mph</p>
+            <p class="wind" id="chill">Wind Chill: <span id="wind-chill"></span></p>
         </div>
         <div class="main-element" id="news-release">
             <h2>News Release</h2>
@@ -102,7 +103,7 @@
         <p class="last-modified"></p>
 
     </footer>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>

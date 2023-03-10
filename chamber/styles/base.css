@@ -171,14 +171,31 @@ main div {
 }
 
 #weather {
-    position: relative;
-
+    text-align: center;
 }
 
 .wind {
     position: relative;
-    top: 75px;
+    top: 40px;
 }
+
+#speed {
+    position: relative;
+    right: 7px;
+}
+
+#chill {
+    position: relative;
+    left: 32px;
+}
+
+#weather-caption {
+    position: relative;
+    bottom: 20px;
+    right: 7px;
+}
+
+
 
 #weather-icon {
     position: relative;
