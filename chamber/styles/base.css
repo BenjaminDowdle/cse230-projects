@@ -118,6 +118,7 @@ main div {
     color: #ede5cb;
     text-align: center;
     box-shadow: 8px 8px 15px #273E47;
+    border-radius: 5px;
 }
 
 .main-element p {
@@ -147,7 +148,8 @@ main div {
 
 .image-text {
     z-index: 1;
-    color: #c0edf9;
+    color: #6e0d1e;
+    text-decoration: solid 3px #6e0d1e underline;
 }
 
 #hero button {
