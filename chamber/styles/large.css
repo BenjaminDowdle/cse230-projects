@@ -11,6 +11,10 @@
         grid-template-columns: 1fr 4fr 1fr;
     }
 
+    .site_views {
+        visibility: visible;
+    }
+
     .join_main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
