@@ -1,6 +1,4 @@
-const url = "data.json";
-
-
+const url2 = "data.json";
 
 async function getData(url) {
     const response = await fetch(url);
@@ -10,7 +8,7 @@ async function getData(url) {
     displayData(data.businesses, "#spotlight3");
 }
 
-getData(url);
+getData(url2);
 
 function displayData(businesses, container) {
     const rand = Math.random() * businesses.length;

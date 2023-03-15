@@ -1,10 +1,10 @@
-const currentTemp = document.querySelector("#temp");
-const weatherIcon = document.querySelector("#weather-icon");
-const weatherCaption = document.querySelector("#weather-caption");
-const windSpeed = document.querySelector("#wind-speed");
-const windChill = document.querySelector("#wind-chill");
+let currentTemp = document.querySelector("#temp");
+let weatherIcon = document.querySelector("#weather-icon");
+let weatherCaption = document.querySelector("#weather-caption");
+let windSpeed = document.querySelector("#wind-speed");
+let windChill = document.querySelector("#wind-chill");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=40.76&lon=-111.89&units=imperial&exclude=hourly,daily&appid=9e8d90bba9cda54ecc2cd9440020ee30"
+let url = "https://api.openweathermap.org/data/2.5/weather?lat=40.76&lon=-111.89&units=imperial&exclude=hourly,daily&appid=9e8d90bba9cda54ecc2cd9440020ee30"
 
 async function apiFetch(url) {
     try {
