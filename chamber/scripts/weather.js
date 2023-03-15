@@ -26,13 +26,12 @@ apiFetch(url);
 
 function displayResults(weatherData) {
 
-
     currentTemp.innerHTML = `${weatherData.main.temp.toFixed(0)}°`;
     weatherIcon.setAttribute('src', `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`);
     weatherCaption.innerHTML = weatherData.weather[0].description;
     windSpeed.innerHTML = weatherData.wind.speed.toFixed(0);
 
-    windChill.innerHTML = calculateWindChill(weatherData.main.temp.toFixed(0), weatherData.wind.speed.toFixed(0));
+    windChill.textContent = calculateWindChill(weatherData.main.temp.toFixed(0), weatherData.wind.speed.toFixed(0));
 }
 
 function calculateWindChill(t, v) {
