@@ -52,28 +52,26 @@ main div {
     font-size: 18px;
 }
 
-.groups,
-.stats {
-    font-size: 12px;
-    margin-bottom: 10em;
-    display: block;
+.demographics {
+    grid-column: 2;
 }
 
-.groups {
+.demographics th:first-child,
+.demographics td:first-child {
     text-align: left;
 }
 
-.stats {
+.demographics th:last-child,
+.demographics td:last-child {
     text-align: right;
 }
 
-.demographics {
-    grid-column: 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
+.demographics tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.demographics td {
+    padding: 15px;
 }
 
 .site_views {
@@ -89,10 +87,6 @@ main div {
     width: 100%;
     margin: 1em auto 0 auto;
     grid-column: 2;
-}
-
-.discover_images:hover {
-    box-shadow: 8px 8px 15px #273E47;
 }
 
 .image_description {
@@ -146,6 +140,27 @@ main div {
     width: 5em;
     margin: auto;
 }
+
+.contact_main {
+    display: block;
+    margin-bottom: 8em;
+    text-align: left;
+}
+
+.contact_main h1 {
+    text-align: center;
+}
+
+.contact_main form {
+    width: 80%;
+    margin: auto;
+}
+
+#contact-info {
+    text-align: center;
+    display: block;
+}
+
 
 #hero {
     background-image: url("../images/neighborhood.webp");

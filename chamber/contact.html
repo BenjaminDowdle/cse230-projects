@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UT Commerce - Contact</title>
+    <meta name="description" content="The contact page for UT Commerce">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+
+    />
+</head>
+<body>
+    <header>
+        <div class="headline">
+            <a href="index.html"><img src="images/UT-Commerce-Logo.webp" alt="UT-Commerce-Logo" class="logo"></a>
+            <h5><i class="date"></i></h5>
+            <p id="date-message"></p>
+        </div>
+        <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook" class="socials"></a>
+        <a href="https://www.linkedin.com/feed/"><img src="images/linkedin.webp" alt="LinkedIn" class="socials"></a>
+        <nav>
+            <ul class="navbar">
+                <li><a id="menu" href="#"> Menu</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="contact_main">
+        <h1>Contact</h1>
+        <form action="thankyou.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+          
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+          
+            <label for="question">Question/Concern:</label><br>
+            <textarea id="question" name="question" rows="4" cols="50" required></textarea><br><br>
+          
+            <input type="submit" value="Submit">
+          </form>
+          <div id="contact-info">
+            <h2>Contact Us</h2>
+            <h3>Address</h3>
+            <p>UT Commerce<br>
+            123 N. Main Street<br>
+            Salt Lake City, Utah</p>
+            <h3>Phone</h3>
+            <p>(801) 555-5555</p>
+            <h3>Email</h3>
+            <a href="utcommerce.contact@slc.gov" type="email">utcommerce.contact@slc.gov</a>
+          </div>
+          
+    </main>
+    <footer>
+        <img src="images/UT-Commerce-Logo.webp" alt="UT-Commerce-Logo" class="logo">
+        <p>info@utcommerce.org</p>
+        <p>(555) 555-5555</p>
+        <a href="https://goo.gl/maps/fVUAVBEQF2tGR2257">Location Map</a>
+        <p>&copy;UT Commerce</p>
+        <h3>Benjamin Dowdle</h3>
+        <p>WDD 230 Project</p>
+        <p>Last modified: </p>
+        <p class="last-modified"></p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
