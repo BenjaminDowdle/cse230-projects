@@ -32,6 +32,10 @@ main div {
 
 }
 
+#news-release p {
+    padding: 30px;
+}
+
 .discover_main {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
