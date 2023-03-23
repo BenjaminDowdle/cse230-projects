@@ -481,6 +481,11 @@ textarea[required] {
 
 .benefits {
     margin: auto;
+    border: #0d303d solid 2px;
+}
+
+.benefits tr:nth-child(even) {
+    background-color: #a6b5bb;
 }
 
 .benefits td {
