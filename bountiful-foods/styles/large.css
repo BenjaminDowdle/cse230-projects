@@ -1,0 +1,10 @@
+@media screen and (min-width: 80em) {
+    #hero-img {
+        float: right;
+        width: 40%;
+    }
+
+    #hero button {
+        left: 5em;
+    }
+}
