@@ -1,10 +1,19 @@
 @media screen and (min-width: 80em) {
     #hero-img {
         float: right;
-        width: 40%;
+        width: 30%;
+        border-radius: 0 0 0 20%;
+    }
+
+    #hero {
+        margin-bottom: 125px;
     }
 
     #hero button {
+        font-size: 40px;
+        top: 4em;
         left: 5em;
+        border-radius: 10px;
+
     }
 }
