@@ -7,8 +7,10 @@
         margin-bottom: 150px;
     }
 
-    #hero div{
+    #hero-div{
+        position: relative;
         grid-column: 2;
+        bottom: 50px;
     }
 
     #hero-img{

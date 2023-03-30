@@ -1,6 +1,19 @@
 @media (min-width: 45em) and (max-width: 80em) {
 
-    #hero button{
-        
+    .home-element{
+        margin: 10px auto;
+    }
+
+    #hero{
+        margin-bottom: 150px;
+    }
+
+    #hero-div{
+        position: relative;
+        top: 150px;
+    }
+
+    #hero-img{
+        width: 450px;
     }
 }
