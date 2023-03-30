@@ -1,19 +1,23 @@
 @media screen and (min-width: 80em) {
-    #hero-img {
-        margin-top: 150px;
-    }
-
-    #hero {
-        display: flex;
+    #hero{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
-        justify-content: center;
-        margin-bottom: 125px;
+        justify-items: center;
+        margin-bottom: 150px;
     }
 
-    #hero button {
-        font-size: 40px;
-        border-radius: 10px;
-        margin: auto;
+    #hero div{
+        grid-column: 2;
+    }
 
+    #hero-img{
+        margin-top: 5em;
+        grid-column: 3;
+        width: 450px;
+    }
+
+    .home-element{
+        margin: 10px auto;
     }
 }

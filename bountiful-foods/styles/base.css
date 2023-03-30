@@ -16,7 +16,7 @@ body h2 {
     font-size: 40px;
 }
 
-#header-links{
+#header-links {
     background-color: #F8BD4F;
     display: flex;
     justify-content: space-between;
@@ -47,19 +47,17 @@ nav {
 }
 
 .navbar a {
-    position: relative;
     display: block;
     text-align: center;
-    padding: .5em;
-    width: 100%;
     text-decoration: none;
+    padding: 8px;
     color: black;
     font-weight: 700;
     transition: 0.5s;
-    font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-size: 20px;
 }
 
-#menu{
+#menu {
     text-align: left;
 }
 
@@ -75,7 +73,7 @@ nav {
 }
 
 .responsive li {
-    display: flex;
+    display: block;
 }
 
 .responsive #menu::before {
@@ -120,6 +118,7 @@ nav {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
+    max-width: 50em;
 }
 
 main h1 {
