@@ -1,24 +1,19 @@
 @media screen and (min-width: 80em) {
     #hero-img {
-        float: right;
-        margin-top: 75px;
-        width: 30%;
-        border-radius: 0 0 0 20%;
+        margin-top: 150px;
     }
 
     #hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-bottom: 125px;
     }
 
     #hero button {
         font-size: 40px;
-        top: 4em;
-        left: 5em;
         border-radius: 10px;
+        margin: auto;
 
-    }
-
-    main h1 {
-        padding-top: 30px;
     }
 }
