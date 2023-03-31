@@ -15,7 +15,7 @@
 
     #hero-img{
         position: relative;
-        left: 10.5%;
+        margin-left: auto;
         margin-top: 5em;
         grid-column: 3;
         width: 500px;
