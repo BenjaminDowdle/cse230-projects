@@ -8,7 +8,7 @@ body {
 
 body p {
     font-family: 'Caveat', cursive;
-    font-size: 20px;
+    font-size: 24px;
 
 }
 
@@ -59,7 +59,7 @@ nav {
     color: black;
     font-weight: 700;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #menu {
@@ -144,6 +144,15 @@ main h1 {
 .social {
     width: 20px;
     margin: auto 2px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    max-width: 500px;
+    margin: 50px auto;
+    
 }
 
 footer {

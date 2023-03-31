@@ -14,12 +14,19 @@
     }
 
     #hero-img{
+        position: relative;
+        left: 10.5%;
         margin-top: 5em;
         grid-column: 3;
-        width: 450px;
+        width: 500px;
+    }
+
+    .navbar a {
+        font-size: 30px;
     }
 
     .home-element{
         margin: 10px auto;
     }
+
 }

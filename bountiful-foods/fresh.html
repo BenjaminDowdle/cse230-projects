@@ -52,7 +52,42 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <h1>Make Your Own Drink!</h1>
+      <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required /><br /><br />
+
+        <label for="fruit1">Select Fruit 1:</label>
+        <select id="fruit1" name="fruit1" required>
+          <option value="" disabled selected>Select fruit</option>
+          <!-- Populate select options with fruit data from JSON --></select
+        ><br /><br />
+
+        <label for="fruit2">Select Fruit 2:</label>
+        <select id="fruit2" name="fruit2" required>
+          <option value="" disabled selected>Select fruit</option>
+          <!-- Populate select options with fruit data from JSON --></select
+        ><br /><br />
+
+        <label for="fruit3">Select Fruit 3:</label>
+        <select id="fruit3" name="fruit3" required>
+          <option value="" disabled selected>Select fruit</option>
+          <!-- Populate select options with fruit data from JSON --></select
+        ><br /><br />
+
+        <label for="instructions">Special Instructions:</label><br />
+        <textarea id="instructions" name="instructions"></textarea><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
     <footer>
       <img src="images/BountifulFoodsLogo.png" alt="Logo" class="logo" />
       <a href="mailto:bountifulfoods@gmail.com">Send Us an Email</a>
@@ -70,5 +105,6 @@
         /></a>
       </div>
     </footer>
+    <script src="scripts/menu.js"></script>
   </body>
 </html>
