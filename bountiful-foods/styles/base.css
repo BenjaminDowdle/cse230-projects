@@ -150,9 +150,14 @@ form{
     display: flex;
     flex-direction: column;
     font-size: 24px;
-    max-width: 500px;
-    margin: 50px auto;
-    
+    max-width: 600px;
+    margin: 20px
+}
+
+form input,
+form option,
+form select{
+    font-family: 'Caveat', cursive;
 }
 
 footer {

@@ -16,4 +16,8 @@
     #hero-img{
         width: 450px;
     }
+
+    form{
+        margin: 50px auto;
+    }
 }
