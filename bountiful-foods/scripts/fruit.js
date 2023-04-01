@@ -1,8 +1,13 @@
 let json = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 
+let fname = document.querySelector("#fname");
+let email = document.querySelector("#email");
+let phone = document.querySelector("#phone");
 let fruit1 = document.querySelector("#fruit1");
 let fruit2 = document.querySelector("#fruit2");
 let fruit3 = document.querySelector("#fruit3");
+let instructions = document.querySelector("#instructions");
+let drink = document.querySelector("#drink");
 
 async function apiFetch(json) {
     try {
@@ -36,3 +41,27 @@ function displayResults(fruits){
         fruit3.appendChild(option3);
     });
 }
+
+document.querySelector("#order-button").addEventListener("click", function(){
+
+    let n = document.createElement('h2');
+    let e = document.createElement('p');
+    let p = document.createElement('p');
+    let f1 = document.createElement('h2');
+    let f2 = document.createElement('h2');
+    let f3 = document.createElement('h2');
+
+    n.textContent = `Name: ${fname.value}`
+    e.textContent = `Email: ${email.value}`
+    p.textContent = `Phone: ${phone.value}`
+    f1.textContent = `${fruit1.value}`
+    f2.textContent = `${fruit2.value}`
+    f3.textContent = `${fruit3.value}`
+
+    drink.appendChild(n);
+    drink.appendChild(e);
+    drink.appendChild(p);
+    drink.appendChild(f1);
+    drink.appendChild(f2);
+    drink.appendChild(f3);
+});
