@@ -129,7 +129,7 @@ nav {
     display: block;
     background-color: #cd2937;
     color: rgb(249, 249, 235);
-    margin: 10px;
+    margin: 10px 20px;
     padding: 20px;
     border-radius: 10px;
     max-width: 50em;
@@ -156,8 +156,27 @@ form{
 
 form input,
 form option,
-form select{
+form select,
+#instructions{
     font-family: 'Caveat', cursive;
+}
+
+#nutritional-facts{
+    border: #000 2px solid;
+    text-align: left;
+    background-color: rgb(249, 249, 235);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nutritional-facts p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#counter{
+    font-size: 40px;
 }
 
 footer {
