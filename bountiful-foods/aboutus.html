@@ -25,7 +25,7 @@
     <header>
       <div id="header-links">
         <a href="index.html"
-          ><img src="images/BountifulFoodsLogo.png" alt="Logo" class="logo"
+          ><img src="images/BountifulFoodsLogo.webp" alt="Logo" class="logo"
         /></a>
         <a href="index.html"><h1>Bountiful Foods</h1></a>
         <div>
@@ -33,10 +33,10 @@
             ><img src="images/facebook.webp" alt="Facebook" class="social"
           /></a>
           <a href="https://twitter.com"
-            ><img src="images/twitter.png" alt="Twitter" class="social"
+            ><img src="images/twitter.webp" alt="Twitter" class="social"
           /></a>
           <a href="https://instagram.com"
-            ><img src="images/instagram.png" alt="Instagram" class="social"
+            ><img src="images/instagram.webp" alt="Instagram" class="social"
           /></a>
         </div>
       </div>
@@ -49,9 +49,121 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <h1>About Us</h1>
+      <div class="home-element">
+        <p>
+          Welcome to our fruit shop! We are a family-owned and operated business
+          dedicated to providing our customers with the freshest and most
+          delicious fruits available. We believe that healthy eating is
+          essential to a happy and fulfilling life, and we are committed to
+          promoting wellness through our products. <br /><br />
+
+          Our fruits are carefully selected from the best local and
+          international growers, ensuring that we always offer the highest
+          quality produce. We work closely with our suppliers to ensure that our
+          fruits are harvested at the peak of ripeness, resulting in unmatched
+          flavor and nutrition.<br /><br />
+
+          In addition to fresh fruits, we also offer a range of gourmet snacks
+          and treats, such as dried fruits, nuts, and chocolates. Our mission is
+          to provide our customers with a one-stop-shop for all their healthy
+          snacking needs, so that they can stay energized and satisfied
+          throughout the day.<br /><br />
+
+          We are proud to announce that we also operate food trucks that cover
+          the area from Los Angeles to San Diego. Our food trucks offer a
+          variety of healthy and delicious snacks and meals, made with the same
+          high-quality ingredients as our fruit shop products. Whether you're at
+          a local event, a corporate function, or just looking for a quick and
+          tasty bite on the go, our food trucks have you covered.<br /><br />
+
+          At our fruit shop and food trucks, we believe that excellent customer
+          service is just as important as high-quality products. We strive to
+          create a welcoming and friendly environment where our customers feel
+          at home, and we are always happy to answer any questions and provide
+          personalized recommendations.<br /><br />
+
+          Thank you for choosing our fruit shop and food trucks as your source
+          for healthy and delicious snacks and meals! We look forward to serving
+          you soon.
+        </p>
+      </div>
+
+      <!-- Container for the image gallery -->
+      <div class="slideshow">
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/owner.webp" alt="Owner" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img
+            src="images/fruit-stand.webp"
+            alt="Fruit Stand"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img
+            src="images/bountiful-fruits-vendor.webp"
+            alt="Fruit Vendor"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img
+            src="images/fruit-display.webp"
+            alt="Fruit Display"
+            style="width: 100%"
+          />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <div class="home-element">
+        <h2>Questions or Concerns?</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="question">Question/Concern:</label><br />
+          <textarea
+            id="question"
+            name="question"
+            rows="4"
+            cols="50"
+            required
+          ></textarea
+          ><br /><br />
+
+          <input
+            type="submit"
+            value="Submit"
+            onclick="location.href='messagesent.html'"
+          />
+        </form>
+      </div>
+      <h2>Visit Us</h2>
+      <a
+        href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215,-117.3578422,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24"
+        ><img src="images/map.webp" alt="Map" id="map"
+      /></a>
+    </main>
     <footer>
-      <img src="images/BountifulFoodsLogo.png" alt="Logo" class="logo" />
+      <img src="images/BountifulFoodsLogo.webp" alt="Logo" class="logo" />
       <a href="mailto:bountifulfoods@gmail.com">Send Us an Email</a>
       <a href="tel:5555555555">Give Us a Call</a>
       <p>&copy;Bountiful Foods</p>
@@ -60,13 +172,16 @@
           ><img src="images/facebook.webp" alt="Facebook" class="social"
         /></a>
         <a href="https://twitter.com"
-          ><img src="images/twitter.png" alt="Twitter" class="social"
+          ><img src="images/twitter.webp" alt="Twitter" class="social"
         /></a>
         <a href="https://instagram.com"
-          ><img src="images/instagram.png" alt="Instagram" class="social"
+          ><img src="images/instagram.webp" alt="Instagram" class="social"
         /></a>
       </div>
+      <p>Last modified: <span id="last-modified"></span></p>
     </footer>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/last-modified.js"></script>
+    <script src="scripts/slideshow.js"></script>
   </body>
 </html>
