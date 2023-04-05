@@ -150,17 +150,25 @@ main h1 {
     color: #000;
     border: solid #000 2px;
     border-radius: 10px;
-    max-width: 200px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
-#weather-container {
-    display: flex;
-    justify-content: space-between;
+#weather-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#weather-container .current-temp{
+    grid-row: 1;
+    grid-column: 2;
 }
 
 #weather-container .forecast {
+    grid-row: 2;
+    padding: 10px;
+    width: 75px;
     background-color: #f7d493;
 }
 

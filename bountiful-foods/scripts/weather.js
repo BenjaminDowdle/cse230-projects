@@ -32,6 +32,7 @@ function displayWeather(forecast){
     let div3 = document.createElement("div");
     let div4 = document.createElement("div");
 
+    div1.setAttribute('class', 'current-temp');
     div2.setAttribute('class', 'forecast');
     div3.setAttribute('class', 'forecast');
     div4.setAttribute('class', 'forecast');
@@ -54,17 +55,17 @@ function displayWeather(forecast){
     date1 = new Date(forecast.list[8].dt_txt)
     d1.textContent = days[date1.getDay()]
     d1High.textContent = `${forecast.list[8].main.temp_max.toFixed(0)}°`
-    d1Low.textContent = `${forecast.list[8].main.temp_min.toFixed(0)}°`
+    d1Low.textContent = `${forecast.list[12].main.temp_min.toFixed(0)}°`
 
     date2 = new Date(forecast.list[16].dt_txt)
     d2.textContent = days[date2.getDay()]
     d2High.textContent = `${forecast.list[16].main.temp_max.toFixed(0)}°`
-    d2Low.textContent = `${forecast.list[16].main.temp_min.toFixed(0)}°`
+    d2Low.textContent = `${forecast.list[20].main.temp_min.toFixed(0)}°`
 
     date3 = new Date(forecast.list[24].dt_txt)
     d3.textContent = days[date3.getDay()]
     d3High.textContent = `${forecast.list[24].main.temp_max.toFixed(0)}°`
-    d3Low.textContent = `${forecast.list[24].main.temp_min.toFixed(0)}°`
+    d3Low.textContent = `${forecast.list[28].main.temp_min.toFixed(0)}°`
     
     div1.appendChild(p);
     div1.appendChild(current);
