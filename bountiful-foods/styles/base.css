@@ -101,7 +101,7 @@ nav {
     border-radius: 0 0 0 20%;
 }
 
-#hero button {
+#hero-button {
     background-color: rgb(245, 234, 220);
     font-size: 40px;
     border-radius: 15px;
@@ -109,14 +109,10 @@ nav {
     padding: 10px;
     color: black;
     text-decoration: none;
+    padding: 10px;
 }
 
-#hero button a{
-    color: black;
-    text-decoration: none;
-}
-
-#hero button:hover {
+#hero-button:hover {
     background-color: rgb(214, 198, 177);
 }
 

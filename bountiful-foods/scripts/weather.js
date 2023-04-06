@@ -8,7 +8,6 @@ async function apiFetch(url) {
         if (response.ok) {
             const data = await response.json();
             displayWeather(data);
-            console.log(data);
         } else {
             throw Error(await response.text());
         }
